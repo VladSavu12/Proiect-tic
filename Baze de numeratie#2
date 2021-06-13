@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n, p, nr, i, c;
+    cout<<”n=”;
+    cin>>n;
+    p=1;
+    for ( i=1; i<=n-1; i++ )
+    p=p*10;
+    nr=0;
+    for ( i=1; i<=n; i++ )
+    cout<<”c=”;
+    cin>>c;
+    nr=nr+c*p;
+    p=p/10; }
+    cout<<nr;
+
+return 0
+}
+
+  
