@@ -13,7 +13,7 @@ int main()
             s=s+d;
     if(n==s)
         cout<<"numarul "<<n<<"este perfect";
-    else
+        else
         cout<<"numarul "<<n<<"nu este perfect";
 return 0;       
 }
