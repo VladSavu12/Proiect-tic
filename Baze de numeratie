@@ -10,3 +10,6 @@ int main()
     cout<<"NR Bq="; cin>>bq;
     cout<<"Baza in care este:" ; cin>>q;
     cout<<"Baza in care se schimba:"; cin>>l
+}
+   return 0
+}
