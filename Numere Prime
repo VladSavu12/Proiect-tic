@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "x="; cin>>x;
+    prim=1;
+    for(i=2; i*i<=x && prim; i++)
+        if(x%i==0) prim=0
+    if (prim) cout<<"Da,este prim";
+    else      cout<<"Nu,nu este prim";
+    return 0 
+}
