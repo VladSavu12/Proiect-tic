@@ -10,4 +10,5 @@ int main()
     while ( n<>0 )
     c=c%10;
     cout<<c;
+return 0
 }
